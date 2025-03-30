@@ -685,27 +685,75 @@ footer a{
     .foto{
         margin: auto;
         grid-template-areas:
-        "satu dua"
-        "tiga empat"
-        "lima enam"
-        "tujuh delapan"
-        ". sembilan"
+        "satu"
+        "dua"
+        "tiga"
+        "empat"
+        "lima"
+        "enam"
+        "tujuh"
+        "delapan"
+        "sembilan"
         ;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 85%;
         gap: 40px;
     }
 
     .ke1{
+        border-radius: 15px;
         background-size: 200vw;
     }
 
     .ke2 {
+        border-radius: 15px;
         background-position: center;
-        background-size: 300vw;
+        background-size: 180vw;
     }
     
     .ke3{
-        
+        border-radius: 15px;
+        background-position: center;
+        background-size: 180vw;
+    }
+
+    .ke3 h4{
+        color: black;
+    }
+
+    .ke4{
+        border-radius: 15px;
+        background-position: center;
+        background-size: 180vw;
+    }
+
+    .ke5{
+        border-radius: 15px;
+        background-position: center;
+        background-size: 180vw;
+    }
+
+    .ke6{
+        border-radius: 15px;
+        background-position: center;
+        background-size: 180vw;
+    }
+
+    .ke7{
+        border-radius: 15px;
+        background-position: center;
+        background-size: 180vw;
+    }
+
+    .ke8{
+        border-radius: 15px;
+        background-position: center;
+        background-size: 180vw;
+    }
+
+    .ke9{
+        border-radius: 15px;
+        background-position: center;
+        background-size: 180vw;
     }
 }
 
